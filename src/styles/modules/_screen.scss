@@ -1,0 +1,23 @@
+
+
+
+.main-screen {
+  @extend %full-screen;
+
+  display: flex;
+  flex-flow: row nowrap;
+
+  background-image: url('~assets/main-background.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-screen__main {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  overflow: hidden;
+}
